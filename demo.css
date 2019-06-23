@@ -1,0 +1,48 @@
+* {
+	margin: auto;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 15px;
+	font-family: sans-serif;
+	padding: 20px 0;
+}
+
+.tabs-links, .tabs-container {
+	max-width: 1200px;
+	padding: 20px;
+	margin: 0 auto;
+}
+
+.tabs-links {
+	list-style: none;
+}
+
+.tabs-links li {
+	display: inline-block;
+}
+
+.tabs-links li + li {
+	margin-left: 10px;
+}
+
+.tabs-links li a {
+	text-decoration: none;
+	color: #111;
+}
+
+.tabs-links li a:hover {
+	text-decoration: underline;
+}
+
+.tabs-links li.active a {
+	color: #69c;
+}
+
+.tabs-container {
+	max-width: 1200px;
+}

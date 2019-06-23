@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Demo - webcTabs</title>
+	<link rel="stylesheet" href="demo.css">
+</head>
+<body>
+
+	<div class="wrapper">
+		<ul class="tabs-links">
+			<li class="active">
+				<a href="#tab1">Active</a>
+			</li>
+			<li>
+				<a href="#tab2">Pending</a>
+			</li>
+			<li>
+				<a href="#tab3">Declined</a>
+			</li>
+		</ul>
+		<div class="tabs-container">
+			<div class="webcTab" id="tab1">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, itaque.
+			</div>
+			<div class="webcTab" id="tab2">
+				Lorem ipsum dolor sit amet.
+			</div>
+			<div class="webcTab" id="tab3">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis impedit quis totam omnis consectetur, facere. Minima at eum numquam quia esse. Provident architecto quod, accusantium quaerat officiis modi reprehenderit sed?
+			</div>
+		</div>
+	</div>
+	
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script src="webcTabs.js"></script>
+	<script>
+		$(document).ready(function () {
+			$(".tabs-links").webcTabs();
+		});
+	</script>
+</body>
+</html>

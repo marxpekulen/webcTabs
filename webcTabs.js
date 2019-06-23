@@ -1,3 +1,9 @@
+/**
+ * webcTabs v1.0.1
+ * Copyright 2019 Maxim Pikulin
+ * Licensed under: SEE LICENSE IN https://github.com/marxpekulen/webcTabs/blob/master/LICENSE
+ */
+
 (function( $ ) {
   $.fn.webcTabs = function(options) {
 
