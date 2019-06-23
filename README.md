@@ -44,8 +44,8 @@ $(".tabs-links").webcTabs();
 
 ```js
 $(".tabs-links").webcTabs({
-  links : $(".list a'), // link to tab (active class will be added to link parent)
-  tabContent : $(".hero-form__tab"), // tab element
+  links : $(".tabs-links a'), // link to tab (active class will be added to link parent)
+  tabContent : $(".webcTab"), // tab element
   hideFirst : true // hide all tabs instead of tabContent first-child
 });
 ```
